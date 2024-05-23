@@ -5,8 +5,17 @@ const resultSchema = new mongoose.Schema({
     type: Number,
     ref: "User",
   },
-  formFieldDetails: {
+  userName: {
     type: String,
+    ref: "User",
+  },
+  department: {
+    type: String,
+    ref: "User",
+  },
+
+  totalPercentageAchieved: {
+    type: Number,
     required: true,
   },
 });
