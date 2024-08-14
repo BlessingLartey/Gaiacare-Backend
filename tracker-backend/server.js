@@ -7,7 +7,7 @@ const formRoute = require("./routes/formRoutes");
 const resultRoute = require("./routes/resultRoutes");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 //MongoDB connect
 mongoose
